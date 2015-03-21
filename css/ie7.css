@@ -1,0 +1,27 @@
+.center_col {
+    width: 800px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header {
+	position: relative;
+	z-index: initial;
+	height: 720px;
+}
+
+#consultancy {
+	margin-top: 0;
+}
+
+.row_1 .col {
+	width: 97%;
+}
+
+.row_2 .col {
+	width: 44%;
+}
+
+.row_3 .col {
+	width: 28%;
+}
