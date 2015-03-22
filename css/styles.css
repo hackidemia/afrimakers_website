@@ -33,14 +33,14 @@
 /* FONT STLYES */
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	text-align: center;
 	font-size: 100%;
 }
 
 h1 {
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 325%;
 	color: #fff;
 	padding: 20px 0;
@@ -50,7 +50,7 @@ h2 {
 	font-size: 220%;
 	color: #FFF;
 	padding-bottom: 30px;
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: left;
 }
@@ -58,7 +58,7 @@ h2 {
 h3 {
 	font-size: 130%;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	padding: 0 0 30px 0;
 	text-align: left;
@@ -68,7 +68,7 @@ h3 {
 h4 {
 	font-size: 110%;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	padding: 0 0 5px 0;
 	text-align: left;
@@ -78,7 +78,7 @@ p {
 	font-size: 100%;
 	line-height: 140%;
 	color: #FFF;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
@@ -88,6 +88,10 @@ p {
 	margin-bottom: 30px;
 	height: 60px;
 }*/
+
+#videos h2, #what h2, #who h2 {
+	text-align: center;
+}
 
 .fb-box h3 {
 	text-align: left;
@@ -148,7 +152,7 @@ img.responsive {
 
 
 /* NAV */
-#afrimakers { 
+#afrimakers {
 	float: left;
 	margin-top: 27px;
 	width: 157px;
@@ -178,7 +182,7 @@ img.responsive {
 #full_nav li a{
 	font-size: 95%;
 	text-decoration: none;
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: #fff;
 }
@@ -190,7 +194,7 @@ img.responsive {
 
 #full_nav li.sep {
 	text-decoration: none;
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	color: #fff;
 	margin-left: 10px !important;
@@ -198,11 +202,11 @@ img.responsive {
 
 
 
-/* HEADER */	
+/* HEADER */
 #header {
 	background-image: url("../img/hero.jpg");
 	background-position: 50% 0;
-	height: 800px;
+	height: 500px;
 	background-repeat:no-repeat;
 	background-color: #000;
 	position: fixed;
@@ -224,20 +228,23 @@ img.responsive {
 #header.mobile {
 	position: relative;
 	z-index: initial;
-	height: 700px;
+	height: 500px;
 }
 
 #topbox {
 	margin: 140px 0 50px 0;
-}	
+}
 
 #header h1 {
 	margin-top: 17%;
 }
 
 #header p {
-	font-size: 130%;
-	font-family: 'Raleway', sans-serif;
+	width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 150%;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	color: #fff;
@@ -246,7 +253,7 @@ img.responsive {
 
 #header a {
 	font-size: 130%;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	color: #fff;
@@ -312,7 +319,7 @@ img.responsive {
 }
 
 
-/* CAROUSEL */	
+/* CAROUSEL */
 #carouselbox {
 	background-color: #000;
 	z-index: 1;
@@ -357,9 +364,9 @@ img.responsive {
 	list-style-image: url('../img/robot.png');
 	background-repeat: no-repeat;
     background-position: center center;
-    padding-left: 20px;  
+    padding-left: 20px;
 	font-size: 100%;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	line-height: 35px;
 }
@@ -524,7 +531,7 @@ img.responsive {
 }
 
 
-/* MOBILE */	
+/* MOBILE */
 
 .mobile {
 	margin-top: 0;
@@ -538,7 +545,7 @@ img.responsive {
 	cursor: pointer;
 	font-size: 100%;
 	text-decoration: none;
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: #ccc;
 }
@@ -571,16 +578,16 @@ img.responsive {
 	text-align: center;
 	font-size: 150%;
 	line-height: 200%;
-	color: FFF;
+	color: #fff;
 }
 
 #mobile_nav li a {
 	text-decoration: none;
-	color: FFF;
+	color: #fff;
 }
 
 #mobile_nav li a:hover {
-	color: #adafaf;
+	color: #FEBD00;
 }
 
 /* MEDIA QUERIES FOR A RESPONSIVE LAYOUT */
@@ -593,13 +600,13 @@ img.responsive {
 	margin-bottom: 20px;
 	}
 
-	.pad { padding: 0 5%; }	
+	.pad { padding: 0 5%; }
 }
 
 @media (max-width: 980px) {
 	#header h1 { font-size: 300%; }
 
-	#header p { font-size: 110%; }
+	#header p { font-size: 150%; }
 
 	.row_3 .col2 { width: 100%; }
 
@@ -660,12 +667,12 @@ img.responsive {
 	}
 
 	.captiony {
-  		height: 200px; 
+  		height: 200px;
   		display: table-cell;
 		vertical-align: middle;
 	}
 
-	#what p, #videos p { 
+	#what p, #videos p {
 		text-align: left;
 	}
 
@@ -692,7 +699,10 @@ img.responsive {
 	}
 
 	#logolarge { display:none; }
-	#topbox {margin-top: 50px;}
+	/*#topbox {
+		position: relative;
+		top: 0;
+	}*/
 
 
 	#what{ margin-top: 470px; }
@@ -712,11 +722,11 @@ img.responsive {
 
 	#header{ height: 400px; }
 
-	#header p {
+	/*#header p {
 		padding: 20px 10px;
 		bottom: -334px;
 		position: absolute;
-	}
+	}*/
 	#header a {display: none;}
 	#header.mobile h1 { font-size: 160%; }
 
@@ -732,11 +742,11 @@ img.responsive {
 	.row .col, .row .col2 { margin-left: 0; }
 
 	.row_1 .col, .row_2 .col, .row_3 .col, .row_3 .col2 { width: 100%; }
-	
+
 	.pad { padding: 0 5%; }
 }
 
-@media all and (orientation:landscape) {  
+@media all and (orientation:landscape) {
 	#header.mobile {
 		height: 720px;
 	}
@@ -762,19 +772,19 @@ img.responsive {
 
 
 /* IPHONE 5 LANDSCAPE */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : landscape) { 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
 	#header.mobile p {
 		font-size: 60%;
 		padding: 5px 20px;
 	}
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
 and (orientation : landscape) {
 	#header.mobile p {
 		font-size: 60%;
