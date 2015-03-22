@@ -318,6 +318,9 @@ img.responsive {
 	background-color: #25a7c7;
 }
 
+#videos h2 {
+	margin-top: 50px;
+}
 
 /* CAROUSEL */
 #carouselbox {
