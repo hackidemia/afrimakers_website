@@ -232,7 +232,7 @@ img.responsive {
 }
 
 #topbox {
-	margin: 140px 0 50px 0;
+	margin: 190px 0 50px 0;
 }
 
 #header h1 {
@@ -285,7 +285,7 @@ img.responsive {
 /* WHAT WE DO */
 
 #what {
-	margin-top: 750px;
+	margin-top: 570px;
 	padding-top: 50px;
 	background-color: #389769;
 }
@@ -378,10 +378,11 @@ img.responsive {
 
 
 #project1 {
-	padding: 100px 0px 0px;
+	padding: 30px 0px 0px;
 	background-color: #25a7c7;
 	z-index: 1;
 }
+	#project1 h1 { padding-bottom: 60px;}
 
 #project2 {
 	padding: 50px 0px 0px;
