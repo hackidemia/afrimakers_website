@@ -2,6 +2,7 @@
 ##Afrimakers new website: www.afrimakers.org
 
 To contribute to the code please follow these steps:
+
 ⋅⋅* 1. check our issues list and claim the issue you want to work on or create a new issue if spot a new bug or want to propose and enhancement
 ⋅⋅* 2. fork our repo and create a new branch for your contributions 
 ⋅⋅* 3. clone repo locally ( $ git clone https://github.com/hackidemia/afrimakers_website.git)
